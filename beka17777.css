@@ -1,0 +1,308 @@
+a { 
+    margin-left: 10%;
+    text-decoration: none;
+    transition: 300MS;
+    font-family: Arial, Helvetica, sans-serif   ;
+}
+
+a:hover{
+    color: chocolate;
+    font-size: 6vh;
+
+}
+
+div {
+
+}
+
+html {
+    scroll-behavior: smooth ;
+
+}
+
+body{
+    margin: 0%;
+    background-color: blanchedalmond    ;
+    background-image: url(bkgd.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center ;
+    flex-direction: column;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: fixed;
+    top: -9.18vh;
+    width: 100%;
+    height: 12vh;
+    transition: all 400ms;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Times New Roman', Times, serif;
+    background-color: rgb(0, 255, 255);
+}
+header:hover{
+    top: 0
+}
+.prikol {
+    display: flex;
+    justify-content: space-evenly;
+    height: 8vh;
+    width: 50vw;
+    font-size: 5vh;
+}
+.gla {
+    margin-top: -6%;
+    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
+    font-size: 100px;
+    background-color: rgb(0, 255, 255);
+    font-family: cursive;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.gla {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+    background-color: rgb(0, 255, 255);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo{
+    display: flex;
+    width: 10vw;
+    justify-content: space-around;
+}
+
+.vip {
+    width: 90vw;
+    display: flex;
+    justify-content: space-around ;
+    flex-direction: column;
+}
+.qwert{
+    height: auto;
+    width: 90vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    background-color: rgba(0, 0, 0, 0.244);
+    align-items: center ;
+
+}
+
+.jacks {
+    border-radius: 10%;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+
+    margin-bottom: 5vh;
+    margin-left: 5vh;
+    height: 70vh;
+    width: 55vh;
+    background-color: rgba(240, 248, 255, 0.929);
+}
+
+.choice {
+    margin-top: 5vh;
+    height: auto;
+    width: 85vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+img {
+    border-radius: 2vh;
+
+}
+
+
+.jack {
+    margin-top:1%;
+
+}
+
+h2 {
+background-color: #af7197;
+}
+
+h3 {
+    font-size: 190%;
+    
+}
+
+h4 {
+    font-size: 3VH;
+    font-family: fantasy;
+}
+
+h5 {
+      font-size: 100%;
+      margin: 5%;
+}
+
+.buy {
+    align-items: center ;
+    font-family: fantasy;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 11vw;
+    height: 6vh;
+    background: linear-gradient( 90deg, rgb(0, 255, 17), rgb(68, 198, 68) );
+    transition: all 200ms;
+    border-radius: 1vh;
+}
+.buy:hover {
+    color: white;
+    transform: scale(1.2);
+    border-radius: 3vh;
+}
+
+.skid {
+    border-top-right-radius:3vh ;
+    border-top-left-radius:3vh ;
+    background-color: gold;
+    margin-top: -10%;
+    width: 6vw;
+    height: 3vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+.cena {
+    font-size: 5vh;
+    display: flex;
+    justify-content: center;
+    transform: rotate(5deg);
+    text-align: center;
+    transition: all 100ms;
+}
+
+.cena:hover {
+    transform: rotate(-10deg);
+    font-size: 320%;
+}
+
+.onasa {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    width: 84vw;
+    background-color: #a1dffb;
+    color: rgb(106, 0, 255);
+}
+ 
+.hodin {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+* {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    user-select: none;
+}
+.quest {
+    background-color: #af7197;
+    color: #fffb88;
+    width: 84vw;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center ;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.en {
+    background-color:rgba(0, 0, 0, 0.244);
+    border-radius: 0%;
+}
+
+.zat {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500    ;
+}
+
+.big {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    transition: 200ms;
+}
+.big:hover {
+    transform: scale(1.8);
+    padding-left: 11%;
+    padding-right: 11%;
+
+}
+
+.dio {
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+
+.q1 {   
+    background-color: #af7197;
+    margin-bottom: 19%;
+}
+
+.q1:hover {
+    margin-top: 19%;
+    color: #fffb88;
+}
+.a1 {
+    color: #fffb88;
+    position: fixed;
+}
+
+
+.question {
+    margin-bottom: 20px;
+    cursor: pointer;
+    
+}
+
+.answer {
+    opacity: 0;
+    max-height: 0;
+    overflow: hidden;
+    transition: 100ms;
+
+    color: #fff700;   
+}
+
+.question:hover .answer {
+    max-height: 100px; 
+    opacity: 2;
+    transition: all 300ms;
+}
+
+.otv{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 83vw;
+    flex-wrap: wrap;
+}
+
+.esli {
+    font-size: 400%;
+    margin-top: 5%;
+}
+
+.dva {
+    height: 7.7vh;
+}
