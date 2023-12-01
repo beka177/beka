@@ -5,15 +5,11 @@ a {
     font-family: Arial, Helvetica, sans-serif   ;
 }
 
-a:hover{
-    color: chocolate;
+.aa:hover{
     font-size: 6vh;
-
 }
 
-div {
 
-}
 
 html {
     scroll-behavior: smooth ;
@@ -27,6 +23,7 @@ body{
     background-attachment: fixed;
     background-size: cover;
     display: flex;
+    justify-content: center;
     align-items: center ;
     flex-direction: column;
     scroll-behavior: smooth;
@@ -35,6 +32,7 @@ body{
 header {
     position: fixed;
     top: -9.18vh;
+    
     width: 100%;
     height: 12vh;
     transition: all 400ms;
@@ -44,6 +42,14 @@ header {
     align-items: center;
     font-family: 'Times New Roman', Times, serif;
     background-color: rgb(0, 255, 255);
+}
+@media (max-width=768px) {
+    header {
+
+    
+    }
+
+    
 }
 header:hover{
     top: 0
@@ -56,23 +62,16 @@ header:hover{
     font-size: 5vh;
 }
 .gla {
-    margin-top: -6%;
-    font-family: Arial Black,Arial Bold,Gadget,sans-serif; 
-    font-size: 100px;
+    margin-top:4vh ;
+    height: 10vh;
+    width: vw;
     background-color: rgb(0, 255, 255);
-    font-family: cursive;
     display: flex;
     text-align: center;
     justify-content: center;
 }
 
-.gla {
-    display: flex;
-    justify-content: center;
-    width: 40%;
-    background-color: rgb(0, 255, 255);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-}
+
 
 .logo{
     display: flex;
@@ -88,13 +87,12 @@ header:hover{
 }
 .qwert{
     height: auto;
-    width: 90vw;
+    width: 90%;
     flex-direction: column;
     display: flex;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.244);
     align-items: center ;
-
 }
 
 .jacks {
@@ -125,6 +123,9 @@ img {
 
 }
 
+.jjj {
+    width: 24vw;
+}
 
 .jack {
     margin-top:1%;
@@ -150,7 +151,7 @@ h5 {
       margin: 5%;
 }
 
-.buy {
+.buy  {
     align-items: center ;
     font-family: fantasy;
     text-align: center;
@@ -168,6 +169,18 @@ h5 {
     border-radius: 3vh;
 }
 
+.ride {
+    align-items: center ;
+    font-family: fantasy;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 11vw;
+    height: 6vh;
+    background: linear-gradient( 90deg, rgb(0, 255, 17), rgb(68, 198, 68) );
+    transition: all 200ms;
+    border-radius: 1vh;}
+
 .skid {
     border-top-right-radius:3vh ;
     border-top-left-radius:3vh ;
@@ -180,6 +193,7 @@ h5 {
     justify-content: center;
     text-align: center;
 }
+
 .cena {
     font-size: 5vh;
     display: flex;
@@ -191,10 +205,12 @@ h5 {
 
 .cena:hover {
     transform: rotate(-10deg);
-    font-size: 320%;
+    font-size: 6vh;
 }
 
 .onasa {
+    border-top-right-radius: 4vh;
+    border-top-left-radius: 4vh;
     flex-direction: column;
     display: flex;
     justify-content: center;
@@ -203,7 +219,31 @@ h5 {
     background-color: #a1dffb;
     color: rgb(106, 0, 255);
 }
- 
+
+.mess {
+    height: 15vh;
+    width: 25vw;
+    margin-top: 1vh;
+    margin-right: 40vw;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between; 
+
+}
+
+.fvu {
+    height: 10vh;
+    width: 8vw;
+    transition: 300ms;
+    position: absolute;
+}
+
+.fvu:hover {
+    height: 12vh;
+    width: 10vw;
+}
+
 .hodin {
     font-family: 'Roboto', sans-serif;
     font-family: 'Ubuntu', sans-serif;
@@ -226,7 +266,7 @@ h5 {
 }
 
 .en {
-    background-color:rgba(0, 0, 0, 0.244);
+
     border-radius: 0%;
 }
 
@@ -243,8 +283,8 @@ h5 {
 }
 .big:hover {
     transform: scale(1.8);
-    padding-left: 11%;
-    padding-right: 11%;
+    padding-left: 1vw;
+    padding-right: 1vw;
 
 }
 
